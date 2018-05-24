@@ -1,0 +1,18 @@
+#welcome {
+  h1, h2, h3, h4, h5, h6, p {
+    text-shadow: 5px 5px 5px #000;
+  }
+}
+
+#issue-home {
+  h1, h2, h3, h4, h5, h6, p {
+    text-shadow: 5px 5px 5px #fff;
+    color: #2a2a2a;
+  }
+}
+
+#redux-acciones, #redux-reducers {
+  div {
+    border: 1px solid #fff;
+  }
+}
