@@ -25,7 +25,6 @@
     "rimraf": "^2.6.2"
   },
   "dependencies": {
-    "rainbow-code": "^2.1.2",
     "reveal": "^0.0.4"
   }
 }

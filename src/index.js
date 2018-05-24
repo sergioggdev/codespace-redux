@@ -3,7 +3,7 @@ import Reveal from 'reveal';
 import 'reveal/index.css';
 import 'reveal/theme/default.css';
 
-import welcome from './img/cover1.jpg';
+import welcome from './img/welcome.jpg';
 import theIssue from './img/domar-js.jpeg';
 import lego from './img/lego.jpg';
 import facebook from './img/facebook.jpg';

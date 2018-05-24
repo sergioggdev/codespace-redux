@@ -23,19 +23,19 @@
       <section id="issue">
         <section id="issue-home">
           <h1>El problema</h1>
-          <h3>La abstraccion de los datos</h3>
+          <h3>La abstracción de los datos</h3>
         </section>
         <section>
           <h3>Componentes poco reutilizables</h3>
-          <img class="fragment fade-up" width="200" src="./img/logo-codespace.png" style="margin-bottom: 40%;">
+          <img class="fragment fade-up" width="500" src="./img/reutilizable.png" style="margin-bottom: 40%;">
         </section>
         <section>
           <h3>Componente spaghetti</h3>
-          <img class="fragment fade-up" width="200" src="./img/logo-codespace.png" style="margin-bottom: 40%;">
+          <img class="fragment fade-up" width="500" src="./img/spaghetti.png" style="margin-bottom: 40%;">
         </section>
         <section>
           <h3>Poca abstracción</h3>
-          <img class="fragment fade-up" width="200" src="./img/logo-codespace.png" style="margin-bottom: 40%;">
+          <img class="fragment fade-up" width="700" src="./img/abstraccion.png" style="margin-bottom: 40%;">
         </section>
         <section id="issue-end">
         </section>
@@ -62,7 +62,7 @@
           <h2>Flux en detalle...</h2>
           <img src="./img/flux.png">
           <p class="fragment fade-up">Se basa en la creación de varios contenedores donde guardar los datos</p>
-          <p class="fragment fade-up">Para modificar el store, solo se puede acceder a traves de acciones</p>
+          <p class="fragment fade-up">Para modificar el store, solo se puede acceder a través de acciones</p>
           <p class="fragment fade-up">Dichas acciones son manejadas por el dispatcher</p>
           <p class="fragment fade-up">Los Stores son copiados en cada modificación, siendo inmutables</p>
         </section>
@@ -92,15 +92,19 @@
 
         <section id="redux-acciones">
           <h1>Acciones</h1>
-          <p class="fragment fade-up">Son la unica forma de comunicarnos con el Store</p>
+          <p class="fragment fade-up">Son la única forma de comunicarnos con el Store</p>
           <div class="fragment fade-up">
             <p>Las acciones son objetos simples con type y un payload</p>
             <p>{ payload: {}, type: 'NOMBRE' }</p>
           </div>
           <p class="fragment fade-up">Para lanzarlas usamos los creadores de acciones</p>
           <div class="fragment fade-up">
-            <p>Son funciones que reciben el payload y emiten una accion</p>
-            <p> creadorDeAcciones = payload => ({ payload, type: 'NAME' })</p>
+            <p>Son funciones que reciben el payload y emiten una acción</p>
+            <p>
+              <code>
+              payload => ({ payload, type: 'NAME' })
+            </code>
+            </p>
           </div>
         </section>
 
@@ -113,7 +117,7 @@
           </div>
           <p class="fragment fade-up">Estas funciones deben siempre devolver el estado</p>
           <div class="fragment fade-up">
-            <p>Para no mutar el estado devemos hacer una copia exacta</p>
+            <p>Para no mutar el estado debemos hacer una copia exacta</p>
             <p>Object.assign({}, obj);</p>
             <p>spread operator ...</p>
           </div>
