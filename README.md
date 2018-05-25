@@ -1,6 +1,9 @@
 # Master class Redux
 Presentacion sobre el problema y la metodologia, y explicacion de la libreria Redux
 
+### Librerias
+- redux
+- react-redux
 ### Middlwares 
 - redux-devtools-extension
 - redux-logger
